@@ -1,0 +1,44 @@
+p{
+
+/*Content -Width and Height*/
+
+width: 50%;
+/*width: 200px; basically 50% of the parent element.*/
+/*height: 300px;*/
+/*Borders */
+
+border: 2px solid blue;
+/*border-left: 
+border-right:
+border-top; etc */
+
+
+/*Padding*/
+/*padding: 100px;*/ /*this sets in all four sides, exactly the same.*/
+padding-left: 40px;
+/*However, sometimes we want padding only on one side or two sides.*/
+
+
+/*Margin*/
+/*margin: 100px;
+*//*The space between images is set using margin.*/
+/*margin-top: 500px;*/
+
+/*Shortcut to write different different dimensions of margins on 
+all the sides together.*/
+
+/*margin: 20px 40px 500px 100px;
+*/
+/*margin: 0 auto 0 auto;*/
+/*margin: 0 auto;*/
+/*This will set top and bottom to 0, left and write to auto.*/
+
+margin:50px 20px; 
+/*this will set 50px top and bottom and 20px left and right.*/
+}
+
+
+
+
+
+

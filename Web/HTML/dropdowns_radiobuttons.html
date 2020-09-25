@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+<p>Do you prefer cats or dogs?</p>
+
+<form>
+
+<!-- all options with and without name tags
+ -->
+
+
+<!-- <input type="radio"> <!-- used when the user has one choice -->
+<!-- <input type="checkbox"> -->	<!-- used when user wants to check off multiple choices  -->
+
+ <label for="dogs">Dogs:</label>
+ <input name = "petChoice"id = "dogs" type="radio" value="DOGS">
+
+ <label for="cats">Cats</label>
+ <input name = "petChoice" id="cats" type = "radio" value = "CATS">
+<!-- When we are using this, we need to tell HTML that these two radio buttons have the same choices. So only one of them has to get selected. Not Both-- That is taken care of by name tag.> -->
+<p>What is your favorite color?</p>
+<select name = "color"> <!-- Gives us the dropdown menu -->
+ <option>Red</option>
+ <option>Orange</option>
+ <option>Yellow</option>
+</select>
+
+<!-- <p>What's your current mood?</p>
+
+<select name = "mood">
+ <option value = "happy">:) </option>
+ <option value = "neutral">:|</option>
+ <option value = "sad">:( </option>
+ -->
+
+
+
+ <!-- Used to get a larger text area. -->
+ <input name = "data" type="text">
+ <textarea name = "paragraph "rows="10" cols="10"></textarea>
+
+<!-- <textarea rows="10" cols="10"></textarea>
+ -->
+ <button>Go!</button>
+</form>
+
+</body>
+</html>

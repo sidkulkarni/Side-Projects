@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specifity</title>
+	<style type="text/css">
+	body{
+		color: red;
+	}
+
+	ul{
+		color: blue;
+	}
+
+	li{
+		color:orange;
+	}
+
+	.highlight{
+	 color: yellow;
+	}
+
+	#special{
+	 color: pink;
+	}
+	</style>
+
+
+<!-- Specificity: Is this idea in CSS that we can have multiple styles targetting one element. -->
+
+<!-- In this case, we have multiple styles, targetting this one ul. Or this li for instance.
+
+The li is being targetted by the body turning it red.
+and it also being targetted by line 10 which indicates to make all ul's blue.
+
+So CSS has to decide which one wins. In this case, whatever style is closest to this element wins.
+(Ex: Body is very general,ul is very specific. ul is going to win.)
+ -->
+
+<!-- The closest selector to the element wins -->
+
+
+
+</head>
+<body>
+<p>Hello!!!</p>
+
+<ul>
+ <li id = "special"class="highlight">John</li>	
+ <li>Paul</li>
+ <li>George</li>
+ <li class="highlight">Ringo</li>
+</ul>
+
+
+</body>
+</html>
+
+<!-- 
+Magnitude of Specificity:
+(Increasing order of magnitude.)
+
+(a) Type Selectors
+
+li{
+	
+}
+
+li a{
+	
+}
+
+li + a{
+	
+}
+
+(b)Class, Attribute, and Pseudo-Class Selectors
+
+.hello{
+	
+} 
+
+input[type="text"]{
+	
+}
+
+(c)ID Selectors
+
+#hello -->
+

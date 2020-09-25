@@ -1,0 +1,23 @@
+
+/* Background property being used to change the color of something*/
+h1{
+	color: rgba(0,200,100,0.8);
+	/*border-color:purple;
+	border-width: 5px;
+	border-style: solid;*/ 
+
+	/*Alternate Syntax*/
+	/*border: 5px solid purple;*/
+
+	border: 2px dotted rgb(255,100,80);
+}
+
+h4{
+	background: rgb(255,100,80);
+}
+
+body{
+	background: pink;
+	/*background: url(https://i.pinimg.com/originals/19/fe/1b/19fe1b9b8f627dd11bdaa1f1431c9d1f.jpg); */
+	/*if we want to give the background of some image. We give the url of where the image is located*/
+}

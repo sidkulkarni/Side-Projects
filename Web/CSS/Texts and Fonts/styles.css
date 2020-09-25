@@ -1,0 +1,39 @@
+/*font-family*/
+
+p{
+	font-family: "Arial";
+}
+
+h1{
+	font-family:Georgia;
+}
+
+/*font-size*/
+
+body{
+	font-size: 10px;/* // this was the base case of parent size being fixed*/.
+}
+
+h1{
+	font-size: 5.0em;
+}
+
+
+p{
+ 	font-size: 2.0em; 
+}
+
+span{
+	font-size: 2.0em; /*// that is going to be double the size of the parent element which in this case is <p>.*/
+}
+
+/*font-weight*/
+
+
+/*line-height*/
+
+
+/*text-align*/
+
+
+/*text-decoration*/

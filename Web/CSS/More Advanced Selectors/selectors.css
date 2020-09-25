@@ -1,0 +1,87 @@
+/*Advanced Selectors example
+
+/*Some basic selectors first
+*/
+
+li{
+	/*Element Selector*/
+}
+
+.hello{
+	/*Class selector*/
+}
+
+#name{
+	/*ID Selector*/
+}
+
+/*Star Selector*/
+/*The property inside will apply to every single element.*/
+/*This will apply to every single element*/
+
+*{
+ border: 1px solid lightgrey ;	
+}
+
+
+/*Descendent Selector*/
+/*It takes 2 or more tag names or 2 or more selectors */
+/*Useful for nestings*/
+li a{
+	color:red;
+}
+
+/*Adjacent Selector
+It will let us select element that will come after some element*/
+/*Not nested allies.
+Allows us to select siblings.*/
+
+
+/*ul's that are adjacent to the h4 in this case*/
+
+h4 +ul{
+	border:4px solid red;
+}
+
+
+/*Attribute Selector (V.Imp)*/
+/*this will select every anchor tag with href equals to google*/
+a[href="http:www.google.com"]{
+	background: blue;
+}
+
+/*/*if you want to style all text inputs differently*/
+/*input[type="text"]{
+	background: yellow;
+}*/
+
+
+/*or if you want to style all checkboxes in one way.
+input[type="checkbox"]{
+	background: blue;
+}
+
+*/
+
+/*nth of type selector*/
+/*Takes a number like (for example 3/5) and selects every nth of a specific element*/
+
+
+/*for example in this case: we want to give every 3rd ul a specific background
+*/
+
+ul:nth-of-type(3){
+	background: purple;
+}
+/*note only the 3rd ul turns purple in this case.*/
+
+/*li:nth-of-type(3){
+	background: purple;
+}*/
+/*selects every 3rd li in the ul and makes it purple.*/
+
+/**li:nth-of-type(even){
+	background: purple;
+}*/
+
+/*every even li and makes it purple*/.
