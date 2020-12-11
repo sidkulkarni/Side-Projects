@@ -1,3 +1,4 @@
 # FullStack
 
-Web and Mobile Frameworks and Projects
+Side Projects (Web, Mobile, Desktop, Games, Tools, Technologies)
+
