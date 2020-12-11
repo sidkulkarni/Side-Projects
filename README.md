@@ -1,4 +1,4 @@
 # FullStack
 
-Side Projects (Web, Mobile, Desktop, Games, Tools, Technologies)
+Side Projects, Personal Projects (Web, Mobile, Desktop, Games, Apps, Tools, Technologies)
 
